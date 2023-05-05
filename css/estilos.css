@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.5) 0%, rgba(166, 192, 238, 0.5) 100%), url(../img/img_p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
